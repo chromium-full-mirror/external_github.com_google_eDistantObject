@@ -17,6 +17,7 @@
 #import <XCTest/XCTest.h>
 
 #import <objc/runtime.h>
+#include <stddef.h>
 
 #import "Channel/Sources/EDOHostPort.h"
 #import "Service/Sources/EDOBlockObject.h"
@@ -33,6 +34,7 @@
 #import "Service/Sources/EDOParameter.h"  // IWYU pragma: keep
 #import "Service/Sources/EDORemoteException.h"
 #import "Service/Sources/EDOServicePort.h"
+#import "Service/Sources/EDOServiceRequest.h"
 #import "Service/Sources/NSKeyedArchiver+EDOAdditions.h"
 #import "Service/Sources/NSKeyedUnarchiver+EDOAdditions.h"
 
